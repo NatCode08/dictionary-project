@@ -6,6 +6,8 @@ function App() {
     <div className="App">
       <div className="container">Dictionary</div>
       <Dictionary />
+
+      <footer> Coded by Natalia Ortiz </footer>
     </div>
   );
 }
