@@ -8,13 +8,12 @@ export default function Dictionary() {
   let [results, setResults] = useState(null);
 
   function handleResponse(response) {
-    console.log(response.data[0].meanings[0].definitions[0].definition);
-    setResults();
+    setResults(response.data[0]);
   }
 
   //documentation:https://dictionaryapi.dev/
 
-  function search(event) {
+  function Search(event) {
     event.preventDefault();
 
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${keyword}`;
@@ -26,7 +25,7 @@ export default function Dictionary() {
 
   return (
     <div className="Dictionary">
-      <form onSubmit={search}>
+      <form onSubmit={Search}>
         <input type="search" onChange={handleKeywordChange} />
         <Results results={results} />
       </form>
