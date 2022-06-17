@@ -14,6 +14,7 @@ export default function Meaning(props) {
               <strong>Definition:</strong>
               {definition.definition}
               <br />
+              <br />
 
               <strong>Example: </strong>
               {definition.example && <Example example={definition.example} />}

@@ -7,7 +7,13 @@ function App() {
       <div className="container">Dictionary</div>
       <Dictionary />
 
-      <footer> Coded by Natalia Ortiz </footer>
+      <footer>
+        {" "}
+        Coded by{" "}
+        <a href="https://github.com/NatCode08" target="_blank" rel="noreferrer">
+          Natalia Ortiz{" "}
+        </a>{" "}
+      </footer>
     </div>
   );
 }
