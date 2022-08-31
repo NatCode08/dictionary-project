@@ -4,8 +4,8 @@ import Dictionary from "./Dictionary";
 function App() {
   return (
     <div className="App">
-      <div classname="dictionaryContainer">
-        <Dictionary defaultKeyword="sunrise" />
+      <div className="dictionaryContainer">
+        <Dictionary defaultKeyword="sun" />
       </div>
       <footer>
         {" "}
