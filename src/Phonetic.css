@@ -1,7 +1,9 @@
 .Phonetic {
   text-align: center;
   margin: -50px;
-  background-color: #e45d29;
+}
+.word section {
+  background: #e45d29;
 }
 .Phonetic a {
   color: #46459e;

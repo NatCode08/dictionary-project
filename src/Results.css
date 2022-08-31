@@ -1,5 +1,5 @@
-#result {
-  background-color: #e45d29;
+.result section {
+  background: #e45d29;
 }
 .Results h2 {
   text-align: center;

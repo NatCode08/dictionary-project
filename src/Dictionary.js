@@ -25,13 +25,13 @@ export default function Dictionary() {
 
   return (
     <div className="Dictionary">
-      <section>
+      <section className="searchBar">
+        <span className="container"> dictionary. </span>
         <form onSubmit={Search}>
-          <span className="container"> dictionary. </span>
           <input
             type="search"
             onChange={handleKeywordChange}
-            placeholder="What word do you wanna look up?"
+            placeholder="Type the word you are looking for"
           />
         </form>
       </section>
