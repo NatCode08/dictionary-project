@@ -12,4 +12,9 @@
 footer {
   margin-top: 30px;
   font-size: 15px;
+  text-align: center;
+}
+.App a {
+  text-decoration: none;
+  color: #757575;
 }
