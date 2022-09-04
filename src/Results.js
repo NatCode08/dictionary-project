@@ -1,4 +1,5 @@
 import React from "react";
+
 import Meaning from "./Meaning";
 import Phonetic from "./Phonetic";
 import "./Results.css";
@@ -7,7 +8,7 @@ export default function Results(props) {
   if (props.results) {
     return (
       <div className="Results">
-        <section className="result">
+        <section className="phonetics">
           <h2>{props.results.word}</h2>
           {props.results.phonetics.map(function (phonetic, index) {
             if (index < 2) {
@@ -21,14 +22,16 @@ export default function Results(props) {
             }
           })}
         </section>
-        {props.results.meanings.map(function (meaning, index) {
-          return (
-            <section className="meaning" key={index}>
-              {" "}
-              <Meaning meaning={meaning} />{" "}
-            </section>
-          );
-        })}
+        <section className="meanings">
+          {props.results.meanings.map(function (meaning, index) {
+            return (
+              <section className="meaning" key={index}>
+                {" "}
+                <Meaning meaning={meaning} />{" "}
+              </section>
+            );
+          })}
+        </section>
       </div>
     );
   } else {

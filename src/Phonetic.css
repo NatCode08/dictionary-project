@@ -1,9 +1,12 @@
 .Phonetic {
   text-align: center;
-  margin: -50px;
 }
-.word section {
+
+.Phonetic .word span {
+  margin: 0;
   background: #e45d29;
+  color: #fff;
+  font-weight: normal;
 }
 .Phonetic a {
   color: #46459e;

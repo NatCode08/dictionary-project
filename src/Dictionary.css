@@ -1,12 +1,17 @@
-.Dictionary section {
-  padding: 30px;
+.Dictionary {
   border-radius: 16px;
-  margin: 20px;
   font-size: 50px;
   background: #edd2b6;
   color: #e45d29;
 }
+.Dictionary searchBar {
+  padding: 30px;
+}
 
+.Dictionary searchBar form {
+  display: flex;
+  align-items: center;
+}
 .Dictionary span {
   margin-left: 40px;
 }
@@ -16,6 +21,6 @@
   padding: 18px 18px;
   border: 1px solid #ddd;
   border-radius: 20px;
-  margin: 10px 20px;
+  margin: 30px 20px;
   background-color: #e0d4f2;
 }

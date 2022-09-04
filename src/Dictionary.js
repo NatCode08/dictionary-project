@@ -12,10 +12,11 @@ export default function Dictionary(props) {
     setResults(response.data[0]);
   }
 
-  function search() {}
-  //documentation:https://dictionaryapi.dev/
-  let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${keyword}`;
-  axios.get(apiUrl).then(handleResponse);
+  function search() {
+    //documentation:https://dictionaryapi.dev/
+    let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${keyword}`;
+    axios.get(apiUrl).then(handleResponse);
+  }
 
   function handleSubmit(event) {
     event.preventDefault();
@@ -40,9 +41,8 @@ export default function Dictionary(props) {
               placeholder="Type the word you are looking for"
             />
           </form>
-
-          <Results results={results} />
         </section>
+        <Results results={results} />
       </div>
     );
   } else {

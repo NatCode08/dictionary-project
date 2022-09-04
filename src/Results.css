@@ -1,5 +1,6 @@
-.result section {
+.phonetics {
   background: #e45d29;
+  padding: 30px 0;
 }
 .Results h2 {
   text-align: center;
@@ -8,6 +9,14 @@
   line-height: 1.5;
   text-transform: capitalize;
   color: #ffffff;
+  margin: 0;
+}
+.Results .meanings {
+  padding: 30px;
+  background: #e0d4f2;
+  font-size: 25px;
+  font-weight: normal;
+  color: black;
 }
 .Results .meaning {
   font-size: 25px;
