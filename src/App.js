@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <div className="dictionaryContainer">
-        <Dictionary defaultKeyword="sun" />
+        <Dictionary defaultKeyword="sunrise" />
         <footer>
           {" "}
           Coded by{" "}
