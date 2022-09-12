@@ -1,5 +1,5 @@
 .App {
-  width: 960px;
+  max-width: 960px;
   margin: 0 auto;
   padding: 30px;
   text-align: left;
@@ -7,13 +7,15 @@
   font-weight: bold;
   font-family: "Roboto", sans-serif;
   color: #221916;
-  border-radius: 20px;
 }
 
 footer {
   margin-top: 30px;
   font-size: 15px;
   text-align: center;
+  background: #edd2b6;
+  padding: 30px;
+  border-radius: 16px;
 }
 .App a {
   text-decoration: none;

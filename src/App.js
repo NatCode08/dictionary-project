@@ -6,19 +6,19 @@ function App() {
     <div className="App">
       <div className="dictionaryContainer">
         <Dictionary defaultKeyword="sun" />
+        <footer>
+          {" "}
+          Coded by{" "}
+          <a
+            className="developer"
+            href="https://github.com/NatCode08"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Natalia Ortiz{" "}
+          </a>{" "}
+        </footer>
       </div>
-      <footer>
-        {" "}
-        Coded by{" "}
-        <a
-          className="developer"
-          href="https://github.com/NatCode08"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Natalia Ortiz{" "}
-        </a>{" "}
-      </footer>
     </div>
   );
 }
