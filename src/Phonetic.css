@@ -1,13 +1,15 @@
 .Phonetic {
   text-align: center;
 }
+.Phonetic .word section {
+  border-radius: 16px;
+}
 
 .Phonetic .word span {
   margin: 0;
   background: #e45d29;
   color: #fff;
   font-weight: normal;
-  border-radius: 16px;
 }
 .Phonetic a {
   color: #46459e;
