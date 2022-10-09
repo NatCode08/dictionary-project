@@ -1,3 +1,8 @@
 .Meaning {
-  border-radius: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.noun p {
+  color: #46459e;
+  font-size: 20px;
 }

@@ -1,26 +1,86 @@
 .Dictionary {
   font-size: 50px;
-  border-radius: 16px;
+  font-weight: bold;
   color: #e45d29;
 }
+
 .Dictionary searchBar {
   padding: 30px;
 }
 
 .Dictionary .searchBar form {
-  display: flex;
   align-items: center;
   background: #edd2b6;
+  border-radius: 10px;
+}
+.Dictionary button {
+  border-radius: 20px;
+  padding: 8px 12px;
+  background: #e0d4f2;
+  color: #46459e;
+  font-size: 20px;
+  border: 1px solid #46459e;
+}
+.Dictionary button:hover {
+  transition: all 150ms ease-in-out;
+  color: #e0d4f2;
+  background: #46459e;
 }
 .Dictionary .container span {
   margin-left: 30px;
 }
-
 .Dictionary input {
   width: 60%;
-  padding: 18px 18px;
-  border: 1px solid #ddd;
+  padding: 15px 15px;
+  border: 1px solid #46459e;
   border-radius: 20px;
-  margin: 30px 20px;
+  margin: 10px 20px;
   background-color: #e0d4f2;
+  font-size: 14px;
+}
+
+.Dictionary input::placeholder {
+  color: #46459e;
+}
+@media (max-width: 900px) {
+  .Dictionary {
+    font-size: 30px;
+    border-radius: 16px;
+    font-weight: bold;
+    color: #e45d29;
+  }
+
+  .Dictionary section {
+    border-radius: 10px;
+  }
+
+  .Dictionary .searchBar form {
+    align-items: center;
+    background: #edd2b6;
+  }
+  .Dictionary button {
+    border-radius: 20px;
+    padding: 8px 12px;
+    background: #e0d4f2;
+    color: #46459e;
+    font-size: 14px;
+    border: 1px solid #46459e;
+  }
+
+  .Dictionary input {
+    width: 80%;
+    padding: 10px 10px;
+    border: 1px solid #46459e;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: #e0d4f2;
+    font-size: 14px;
+  }
+
+  .Dictionary input::placeholder {
+    color: #46459e;
+    font-size: 10px;
+  }
 }

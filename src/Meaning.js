@@ -13,9 +13,8 @@ export default function Meaning(props) {
           if (index < 3) {
             return (
               <div key={index}>
-                <p>
+                <p className="noun">
                   {definition.definition}
-                  <br />
                   <br />
 
                   <em>

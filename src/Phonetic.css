@@ -6,7 +6,7 @@
 }
 
 .Phonetic .word span {
-  margin: 0;
+  margin: 0 auto;
   background: #e45d29;
   color: #fff;
   font-weight: normal;
@@ -17,10 +17,10 @@
   font-size: 20px;
   border: 1px solid #46459e;
   border-radius: 20px;
-  font-weight: bold;
+  font-weight: normal;
   font-size: 15px;
   margin-right: 10px;
-  padding: 8px 15px;
+  padding: 8px 16px;
   text-decoration: none;
   transition: all 150ms ease-in-out;
 }
@@ -28,4 +28,34 @@
 .Phonetic a:hover {
   color: #e0d4f2;
   background-color: #46459e;
+}
+
+@media (max-width: 900px) {
+  .Phonetic {
+    text-align: center;
+  }
+
+  .Phonetic .word span {
+    margin: 0 auto;
+    background: #e45d29;
+    color: #fff;
+    font-weight: normal;
+  }
+  .Phonetic a {
+    color: #46459e;
+    background-color: #e0d4f2;
+    font-size: 15px;
+    border: 1px solid #46459e;
+    border-radius: 20px;
+    font-weight: normal;
+    font-size: 10px;
+    padding: 4px 8px;
+    text-decoration: none;
+    transition: all 150ms ease-in-out;
+  }
+
+  .Phonetic a:hover {
+    color: #e0d4f2;
+    background-color: #46459e;
+  }
 }
