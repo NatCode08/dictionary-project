@@ -55,8 +55,8 @@
   }
 
   .Dictionary .searchBar form {
-    align-items: center;
     background: #edd2b6;
+    align-items: center;
   }
   .Dictionary button {
     border-radius: 20px;
@@ -68,7 +68,7 @@
   }
 
   .Dictionary input {
-    width: 80%;
+    width: 65%;
     padding: 10px 10px;
     border: 1px solid #46459e;
     border-radius: 20px;
