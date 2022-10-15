@@ -2,12 +2,12 @@
   display: inline-block;
   margin: 10px;
   border-radius: 25px;
-  border: 1px solid #e45d29;
+  border: 1px solid #46459e;
   padding: 8px 8px;
-  background: #e45d29;
+  background: #46459e;
   opacity: 90%;
   font-size: 20px;
-  color: white;
+  color: #e0d4f2;
 }
 
 @media (max-width: 900px) {
