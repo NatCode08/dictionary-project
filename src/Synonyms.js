@@ -1,13 +1,16 @@
 import React from "react";
+import "./Synonyms.css";
 
 export default function Synonyms(props) {
   if (props.synonyms) {
     return (
-      <ul className="Synonyms">
-        {props.synonyms.map(function (synonym, index) {
-          return <li key={index}>{synonym}</li>;
-        })}
-      </ul>
+      <div className="row justify-content-evenly">
+        <div className="Synonyms col-6">
+          {props.synonyms.map(function (synonym, index) {
+            return <div key={index}>{synonym}</div>;
+          })}
+        </div>
+      </div>
     );
   } else {
     return null;

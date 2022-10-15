@@ -13,18 +13,18 @@ export default function Meaning(props) {
           if (index < 3) {
             return (
               <div key={index}>
-                <p className="noun">
+                <div className="noun">
                   {definition.definition}
                   <br />
 
-                  <em>
+                  <em className="example">
                     {definition.example && (
                       <Example example={definition.example} />
                     )}
                   </em>
                   <br />
                   <Synonyms synonyms={definition.synonyms} />
-                </p>
+                </div>
               </div>
             );
           }
