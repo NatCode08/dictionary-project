@@ -7,6 +7,7 @@
   background: #e45d29;
   opacity: 90%;
   font-size: 20px;
+  color: white;
 }
 
 @media (max-width: 900px) {
@@ -14,10 +15,11 @@
     display: inline-block;
     margin: 10px;
     border-radius: 25px;
-    border: 1px solid #e45d29;
+    border: 1px solid #46459e;
     padding: 4px 4px;
-    background: #e45d29;
+    background: #46459e;
     opacity: 90%;
     font-size: 12px;
+    color: #e0d4f2;
   }
 }
