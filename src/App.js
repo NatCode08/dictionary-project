@@ -18,6 +18,15 @@ function App() {
           >
             Natalia Ortiz{" "}
           </a>{" "}
+          and is hosted in{" "}
+          <a
+            href="https://app.netlify.com/sites/astounding-bunny-ce24d6/overview"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {" "}
+            Netlify
+          </a>{" "}
         </footer>
       </div>
     </div>

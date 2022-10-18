@@ -15,7 +15,9 @@ export default function Meaning(props) {
             return (
               <div key={index}>
                 <div className="noun">
+                  <Synonyms synonyms={definition.synonyms} />
                   {definition.definition}
+
                   <br />
                   <em className="example">
                     {definition.example && (
@@ -23,7 +25,6 @@ export default function Meaning(props) {
                     )}
                   </em>
                   <br />
-                  <Synonyms synonyms={definition.synonyms} />
                 </div>
               </div>
             );

@@ -5,7 +5,7 @@ export default function Synonyms(props) {
   if (props.synonyms) {
     return (
       <div className="row justify-content-evenly">
-        <div className="Synonyms col-6">
+        <div className="Synonyms col-12">
           {props.synonyms.map(function (synonym, index) {
             return <div key={index}>{synonym}</div>;
           })}
